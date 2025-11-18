@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Django migrations (optional)
+*/migrations/
+!*/migrations/__init__.py
+
+# VS Code settings (optional)
+.vscode/
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
+# Environment variables
+.env
